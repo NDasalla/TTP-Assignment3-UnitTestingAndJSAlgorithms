@@ -1,6 +1,6 @@
 const { reverseString } = require("./reverseString.js");
 
-describe("stringFunctions functions work", () => {
+describe("reverseString function works", () => {
   //REVERSE STRING
   test("reverseString('Big Shaq') => 'qahS giB'", () => {
     expect(reverseString("Big Shaq")).toEqual("qahS giB");

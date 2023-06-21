@@ -28,7 +28,7 @@ module.exports = {
         return shoppingCart[key]; //returns value of
       }
     }
-    return;
+    return null;
   },
 
   calculateTotal: () => {
